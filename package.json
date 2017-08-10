@@ -1,0 +1,22 @@
+{
+  "name": "excusas",
+  "version": "1.0.0",
+  "description": "excusas para profesionales It",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosManotas/excusas.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Carlos Manotas <carlosmanotas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosManotas/excusas/issues"
+  },
+  "homepage": "https://github.com/CarlosManotas/excusas#readme"
+}
