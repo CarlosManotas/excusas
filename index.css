@@ -64,7 +64,7 @@ button:focus{
   transform: translateY(-1200px);
 }
 #respuesta.animate{
-  animation: manotas 400ms forwards;
+  animation: manotas 600ms forwards;
   transform-origin: top;
 }
 
