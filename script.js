@@ -12,28 +12,28 @@
       "En cuanto terminemos la implementacion"
   ];
   const frase2 = [
-      "l interfaz XML",
-      "l sistema de colas",
-      "l buffer de entrada",
-      "l gestor de peticiones",
-      " las clases de abstraccion",
-      "l recolector de basura",
-      " la nueva version",
-      "l cache",
-      " la version customizada",
-      "l conversor de protocolo"
+      "del interfaz XML",
+      "del sistema de colas",
+      "del buffer de entrada",
+      "del gestor de peticiones",
+      "de las clases de abstraccion",
+      "del recolector de basura",
+      "de la nueva version",
+      "del cache",
+      "de la version customizada",
+      "del conversor de protocolo"
   ];
   const frase3 = [
-      "l directorio LDAP",
-      " la maquina virtual Java",
-      "l proxy inverso",
-      "l gestor de cluster",
-      "l broker de objetos distribuido",
-      " la capa de presentacion",
-      "l despachador de certificados",
-      " la base de datos",
-      "l servidor seguro",
-      "l acelerador de transacciones"
+      "del directorio LDAP",
+      "de la maquina virtual Java",
+      "del proxy inverso",
+      "del gestor de cluster",
+      "del broker de objetos distribuido",
+      "de la capa de presentacion",
+      "del despachador de certificados",
+      "de la base de datos",
+      "del servidor seguro",
+      "del acelerador de transacciones"
   ];
 
   const dameRandom = (array) => array[Math.floor(Math.random()*array.length)]
@@ -42,7 +42,7 @@
   var btn = document.getElementsByTagName('button')[0];
   btn.addEventListener('click',(e)=>{
     respuesta.innerHTML = ''
-    var frase = `${dameRandom(frase1)} de${dameRandom(frase2)} de${dameRandom(frase3)}`
+    var frase = `${dameRandom(frase1)} ${dameRandom(frase2)} ${dameRandom(frase3)}`
     respuesta.classList.add('animate')
     respuesta.innerHTML = frase;
   })
