@@ -36,11 +36,13 @@
       "l acelerador de transacciones"
   ];
 
+  const dameRandom = (array) => array[Math.floor(Math.random()*array.length)]
+
   var respuesta = document.getElementById('respuesta');
   var btn = document.getElementsByTagName('button')[0];
   btn.addEventListener('click',(e)=>{
     respuesta.innerHTML = ''
-    var frase = `${frase1[Math.floor(Math.random() * frase1.length)]} de${frase2[Math.floor(Math.random() * frase2.length)]} de${frase3[Math.floor(Math.random() * frase3.length)]}`
+    var frase = `${dameRandom(frase1)} de${dameRandom(frase2)} de${dameRandom(frase3)}`
     respuesta.classList.add('animate')
     respuesta.innerHTML = frase;
   })
