@@ -38,12 +38,12 @@
 
   const dameRandom = (array) => array[Math.floor(Math.random()*array.length)]
 
-  var respuesta = document.getElementById('respuesta');
-  var btn = document.getElementsByTagName('button')[0];
+  const respuesta = document.getElementById('respuesta');
+  const btn = document.getElementsByTagName('button')[0];
   btn.addEventListener('click',(e)=>{
     respuesta.innerHTML = ''
-    var frase = `${dameRandom(frase1)} ${dameRandom(frase2)} ${dameRandom(frase3)}`
+    let frase = `${dameRandom(frase1)} ${dameRandom(frase2)} ${dameRandom(frase3)}`
+    respuesta.innerHTML = frase
     respuesta.classList.add('animate')
-    respuesta.innerHTML = frase;
   })
 }())
